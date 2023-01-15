@@ -5,13 +5,13 @@ body{
 }
 .container{
     margin: auto;
-    width: 960px;
+    width: 1140px;
     height: 650px;
-    padding: 5px;
+    padding: 20px;
 }
 .logo{
     float: left;
-    width: 100%;
+    width: 70%;
 }
 .input-text{
     float: left;
@@ -27,6 +27,7 @@ body{
     color: #0A3871;
     border: none;
     outline: none;
+    background: #F3F5FC;
 }
 .buttons{
     float: left;
@@ -61,27 +62,31 @@ body{
     height: 65%;
     padding: 30px;
     margin-left: 10%;
+    border: 1px solid #0A3871;
 }
 .btn-desencriptar{
+    border: 1px solid #0A3871;
     border-radius: 30px;
     width: 35%;
     height: 65%;
     padding: 30px;
     margin-left: 63px;
     margin-right: 10%;
+    color: #0A3871;
 }
 .output-text{
+    top: 40px;
     float: right;
     width: 30%;
-    height: auto;
+    height: 100%;
     background: #ffffff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
 }
 .img-output{
-    margin-left: 3%;
-    margin-top: 20%;
-    width: 90%;
+    margin-left: 15%;
+    margin-top: 30%;
+    width: 65%;
     height: auto;
 }
 .message-not-found{
@@ -92,6 +97,7 @@ body{
     font-weight: bold;
     color: #212529;
     text-align: center;
+    
 }
 .text-copy{
     float: left;
@@ -103,4 +109,18 @@ body{
     font-size: 16px;
     border: none;
     outline: none;
+    text-align: center;
+}
+
+#btn-copy{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 55%;
+    height: 10%;
+    padding: 12px;
+    gap: 8px;
+    margin-left: 63px;
+    margin-right: 10%;
+    color: #0A3871;
+    display: none;
 }
